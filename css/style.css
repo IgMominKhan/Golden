@@ -1,0 +1,361 @@
+
+					/* basic design */
+
+* {
+	margin:0;padding:0;
+}
+
+body {
+
+}
+
+/* h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+} */
+
+a {
+	color:		#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+
+					/* reuseable classes */
+h1 {
+	text-transform:uppercase;
+	
+}
+
+.content_width {
+	width:70%;
+	padding:100px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.center {
+	text-align:center;
+}
+
+.content_width>h1 {
+	font-size:40pt;
+	color:#333;
+	font-weight:bolder;
+}
+
+
+.btn {
+	padding:25px 70px;
+	background-color:#fc3;
+	font-size:18px;
+	text-transform:uppercase;
+	border-radius:3px;
+	font-weight:bold;
+}
+
+.content_width>p {
+	color:#666;
+	font-style:italic;
+	font-size:16px;
+	margin-top:10px;
+}
+				/* header area design */ 
+
+#header_area {
+	
+}
+
+#header_area> .content_width {
+	padding:60px 0 65px;
+
+}
+
+nav.navbar {
+	float:right;
+	
+}
+
+.navbar-nav {
+	
+}
+
+.nav-item {
+	display:inline-block;
+	
+}
+
+.nav-link {
+	margin:0px 15px;
+	font-size:14pt;
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+.nav-item:last-child a{
+	margin-right:0px;
+}
+						/* home design */ 
+
+.background-img {
+	background:url(../img/home-bg.jpg) no-repeat;
+	color:#fff;
+}
+
+#home {
+	
+}
+#home .content_width h2 {
+	font-size:40pt;
+	padding-top:10px;
+	text-transform:capitalize;
+}
+
+#home .content_width h1 {
+	font-size:75px;
+	margin-top:20px;
+	margin-bottom:50px;
+	color:#fff;
+}
+
+.home_btn {
+	margin-top: 5px;
+    margin-bottom: 42px;
+}
+
+					/* services area design */
+
+#services {
+}
+
+.service {
+	width:300px;
+	display:inline-block;
+	margin-top:80px;
+}
+
+.service h3 {
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	text-transform:capitalize;
+	margin-bottom:10px;
+	
+	
+}
+
+.service p {
+	font-size:14px;
+	color:#666;
+	line-height:25px;
+}
+
+						/* 	portfolio area design  */
+
+#portfolio_area {
+	background-color:#f7f7f7;
+}
+
+#portfolio_area .service{
+	margin-bottom:60px;
+	margin-top:0px;
+}
+
+.portfolio {
+	margin-right:12px;
+}
+
+.bg {
+	padding:20px 0;
+	background-color:#fff;
+}
+
+.bg>p {
+	font-style:italic;
+	text-transform:capitalize;
+	line-height:5px;
+}
+
+					/* about us design  */
+
+#about_us .content_width {
+	padding-bottom:300px;
+}
+.content_width.center {
+	position:relative;
+}
+
+.content_width.center >p {
+	margin-bottom:80px;
+}
+
+.about_us {
+	margin-bottom:80px;
+	width:65%;
+	line-height:20px;
+	color:#666;
+	clear:both;
+}
+
+.center .about_us:first-child {
+	margin-top:40px;
+}
+.about_us h1 {
+	font-size:18px;
+	color:#333;
+}
+
+
+
+.about-right{
+	float:right;
+}
+
+.left{
+	width:55%;
+	float:left;
+	text-align:right;
+}
+
+
+.right {
+	width:55%;
+	float:right;
+	text-align:left;
+}
+
+.about_us h1:nth-child(2) {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.continues_btn {
+	height:185px;
+	width:185px;
+	border:5px solid #f1f1f1;
+	border-radius:50%;
+	background-color:#fed136;
+	font-size:20px;
+	display:grid;
+	align-items:center;
+	text-transform:uppercase;
+	position:absolute;
+	left: 485px;
+	top: 1345px;
+}
+
+						/* our team design  */
+#our_team {
+	background-color:#f9f9f9;
+
+}
+
+#our_team .team_member.service {
+	margin-top:0;
+	text-transform:capitalize;
+	line-height:5px;
+}
+
+.team_member img {
+	border-radius:50%;
+}
+
+#our_team .service h3{
+	margin-top:30px;
+}
+
+#our_team .content_width p:last-child {
+	margin:80px 0 0;
+}
+
+						/* trasted company area design  */
+
+#trasted_company .content_width{
+	text-align:center;
+	padding:60px 0;
+
+}
+
+.logos{
+	margin-right:40px;
+}
+
+.logos:last-child{
+	margin-right:0px;
+}
+
+section#contact_us{
+	background-image:url("../img/contact_us_bg.jpg");
+	text-align:center;
+	overflow:hidden;
+}
+
+#contact_us .content_width>h1 {
+	color:#fff;
+}
+
+#contact_us .content_width>p {
+	margin-bottom:80px;
+}
+
+.left_side {
+	width:49%;
+	float:left;
+	
+}
+
+.left_side input {
+	width:440px;
+	height:50px;
+	margin-bottom:30px;
+	border-radius:4px;
+	padding-left:15px;
+	color:#ccc;
+	font-weight:bold;
+	font-size:14px;
+}
+
+input:last-child{
+	margin-bottom:0px;
+}
+
+.right_side {
+	width:48%;
+	float:right
+	
+}
+
+.right_side textarea{
+	width:435px;
+	height:196px;
+	border-radius:4px;
+	padding-left:20px;
+	padding-top:20px;
+	font-size:14px;
+	font-weight:bold;
+	color:#ccc;
+}
+
+.mail_btn {
+	margin-top:35px;
+	
+}
+
+						/* footer_area design  */
+
+#footer_area .content_width{
+	padding:50px;
+}
+
+.copyright {
+	float:left;
+}
+
+.designer{
+	float:right;
+}
+
+.designer a{
+	font-size:20px;
+	color:#767676;
+	font-weight:bold;
+}
